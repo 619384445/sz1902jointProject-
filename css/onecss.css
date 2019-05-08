@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,h1,h2,h3,h4,h5,h6,span,ol,ul,li,img,form,input,tr,td,dl,dt,dd,select,fieldst,textarea,legend{margin:0;padding:0;}
+a{text-decoration:none;}
+ul li,ol li {list-style-type:none;}
+img{border:none;}
+
+.clearfix:after{content:"";clear:both;display:block;height:0;font-sezi:1px;overflow:hidden;visibility:hidden;}
