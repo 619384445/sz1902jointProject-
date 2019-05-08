@@ -1,2 +1,51 @@
 @charset "utf-8";
 /* CSS Document */
+.center{
+	width: 1150px;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 32px;
+	background: #f4f4f4;
+	line-height: 32px;
+	font-size: 12px;
+}
+.head a{
+	font-size: 12px;
+}
+.head dl{
+	float: left;
+}
+.head dl dt{
+	height: 32px;
+	width: 120px;
+}
+.head dl dt a{
+	color: #000;
+}
+.head dl dt:hover{
+	background: #CCCCCC;
+}
+.head dl dd{
+	width: 140px;
+	height: 36px;
+	background: #f4f4f4;
+	line-height: 36px;
+}
+.warn{
+   color: red;
+}
+.head-nav{
+	float: right;
+}
+.head-nav a{
+	color: #8e8e8e;
+}
+.head-nav-2 {
+	margin-left:3px;
+}
+.head-nav-2 a{
+	padding: 0 6px;
+	border-left: 1px solid #CCCCCC;
+}
