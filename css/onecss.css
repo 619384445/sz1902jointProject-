@@ -6,3 +6,123 @@ ul li,ol li {list-style-type:none;}
 img{border:none;}
 
 .clearfix:after{content:"";clear:both;display:block;height:0;font-sezi:1px;overflow:hidden;visibility:hidden;}
+
+#footer{
+	background: #000;
+}
+#footer a{
+	color: #666;
+}
+.footer_inner{
+	background: #000;
+	height: 337px;
+	width: 1150px;
+	margin: 0 auto;
+}
+.footer_header{
+	height: 60px;
+	border-bottom: 1px solid #262626;
+	display: flex;
+}
+.footer_header p{
+	font-size: 12px;
+	color: #fff;
+	margin-right: 58px;
+	margin-top: 22px;
+}
+.footer_header p i{
+	color: #f40;
+	margin-right: 5px;
+}
+.footer_header p a{
+	color: #fff;
+}
+.footer_header p span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.footer_header p:nth-child(1) span{
+	width: 26px;
+	height: 28px;
+	background: url(../img/14.jpg) no-repeat 0 0;
+}
+.footer_header p:nth-child(2) span{
+	width: 26px;
+	height: 23px;
+	background: url(../img/14.jpg) no-repeat 0 -40px;
+}
+.footer_header p:nth-child(3) span{
+	width: 24px;
+	height: 23px;
+	background: url(../img/14.jpg) no-repeat 0 -73px;
+}
+.list{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+	margin-bottom: 28px;
+}
+.list dl dt{
+	color: #fff;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+}
+.list dl dd{
+	color: #666;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+}
+.foot_img{
+	float: left;
+}
+.foot_img a{
+	display: inline-block;
+}
+.foot_img a:nth-child(1){
+	width: 76px;
+	height: 34px;
+	background: url(../img/14.jpg) no-repeat 0 -108px;
+}
+.foot_img a:nth-child(2){
+	width: 92px;
+	height: 34px;
+	background: url(../img/14.jpg) no-repeat 0 -151px;
+}
+.foot_img a:nth-child(3){
+	width: 77px;
+	height: 34px;
+	background: url(../img/14.jpg) no-repeat 0 -197px;
+}
+.youqing{
+	float: left;
+	margin-left: 39px;
+}
+.youqing p{
+	height: 20px;
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+}
+.youqing p a{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.youqing p a i{
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	background: url(../img/14.jpg) no-repeat 0 -248px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.footer_inner>p{
+	text-align: center;
+	height: 46px;
+	line-height: 46px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #666;
+}
