@@ -4,7 +4,9 @@
 	width: 1150px;
 	margin: 0 auto;
 	overflow: hidden;
+	position: relative;
 }
+
 .head{
 	width: 100%;
 	height: 32px;
@@ -16,6 +18,8 @@
 	font-size: 12px;
 }
 .head dl{
+	z-index: 100;
+	position: relative;
 	float: left;
 }
 .head dl dt{
@@ -29,10 +33,10 @@
 	background: #CCCCCC;
 }
 .head dl dd{
-	width: 140px;
-	height: 36px;
 	background: #f4f4f4;
 	line-height: 36px;
+	padding: 10px;
+	display: none;
 }
 .warn{
    color: red;
@@ -107,15 +111,18 @@
 	margin-left: 22px;
 	float: right;
 	font-size: 32px !important;
+	cursor: pointer;
+	position: relative;
 }
 .head-title-two{
 	width: 100%;
 	height: 40px;
 	background: #3a3a3a ;
 	line-height: 40px;
+	position: relative;
 	
 }
-.head-title-two a{
+.head-title-two .center a {
 	color: #fff;
 	margin-right: 82px;
 	font-size: 14px;
@@ -142,6 +149,8 @@ h1{
 }
 
 .main-box{
+	width: 1150px;
+	margin: 0 auto;
 	display:flex;
 	flex-wrap: wrap;
 	justify-content:space-between;
@@ -153,21 +162,23 @@ h1{
 }
 
 #showTrademark{
-	width: 100%;
+	width: 1150px;
 	height: 175px;
 	overflow: hidden;
 	position: relative;
+	margin: 0 auto;
 	margin-bottom: 8px;
+	position: relative;
+	
 }
 #trademarkBox a{
 	width: 378px;
 	height: 175px;
 	margin-right:8px;
-	
 }
 
 #trademarkBox{
-	width: 2316px;
+	width: 2348px;
 	height: 175px;
 	position: absolute;
 }
@@ -218,8 +229,9 @@ h1{
 	right: 20px;
 	width: 60px;
 	height: 140px;
+	display: none;
 }
-#helpList a{
+#helpList span{
 	text-align: center;
 	display: block;
 	width: 60px;
@@ -229,7 +241,155 @@ h1{
 	line-height: 60px;
 	margin-bottom: 20px;
 	font-size: 30px;
+	cursor: pointer;
 }
-#helpList a:hover{
+#helpList span:hover{
 	background: rgba(0,0,0,0.8);
+}
+#bar{
+	position: relative;
+	height: 450px;
+}
+#bar a{
+	position: absolute;
+	opacity: 0;
+}
+
+#toLeft {
+				width: 60px;
+				height: 60px;
+				background: url(../img/btn.gif);
+				position: absolute;
+				left: 30px;
+				top: 180px;
+				/*opacity: 0;*/
+				cursor: pointer;
+				display: block;
+			
+				
+			}
+			
+			#toRight {
+				width: 60px;
+				height: 60px;
+				background: url(../img/btn.gif) 0px 60px;
+				position: absolute;
+				right: 30px;
+				top: 180px;
+				/*opacity: 0;*/
+				cursor: pointer;
+				display: block;
+			}
+			
+			#btnarr{
+				opacity: 100;
+			}
+			/*<span id="trad">
+							<div id="trLeft"></div>
+							<div id="trRight"></div>
+						</span>*/
+#barBtn{
+	display: flex;
+	justify-content: space-between;
+}
+#barBtn img{
+	cursor: pointer;
+}
+.fuco2{
+	opacity:0.5;
+}
+.fuco{
+	opacity: 1;
+}
+#trLeft {
+				width: 35px;
+				height: 34px;
+				background: url(../img/btn.gif) -13px -13px;
+				position: absolute;
+				left: 0px;
+				top: 70px;
+				/*opacity: 0;*/
+				cursor: pointer;
+				display: block;
+			
+				
+			}
+			
+			#trRight {
+				width: 35px;
+				height: 34px;
+				background: url(../img/btn.gif) -12px 47px;
+				position: absolute;
+				right: 0px;
+				top: 70px;
+				cursor: pointer;
+				display: block;
+			}
+.main-box a:hover{
+	opacity: 0.8;
+}
+
+#wx{
+   position: relative;
+}
+.wx{
+  position: absolute;
+  top:-24px;
+  left: -297px;
+  width: 296px;
+  height: 180px;
+  display: none;
+}
+.wx img{
+	float: left;
+	height: 100%;
+	width:50%;
+}
+
+#headMain{
+	position: absolute;
+	top:40px;
+	width: 100%;
+	height: 360px;
+	background: #f8f8f8;
+	z-index: 100;
+	padding: 30px 0;
+	display: none;
+}
+#headMain  a{
+	color: #a1a1a1;
+}
+#headMain  a:hover{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+#headMain dt{
+	color: #000;
+	border-bottom: 1px solid #000;
+	
+}
+#headMain div{
+	position: relative;
+	right:0;
+	overflow: hidden;
+}
+#headMain dl{
+	float: left;
+	width:278px;
+	height: 358px;
+	box-sizing: border-box;
+	border-left: 1px solid #ccc;
+	padding: 0 50px;
+}
+
+#shopBox{
+	position: absolute;
+	z-index: 1000;
+	padding: 10px;
+	background: #f8f8f8;
+	width: 378px;
+	height: 496px;
+	left: 809px;
+	top: 102px;
+	display: none;
 }

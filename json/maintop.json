@@ -1,12 +1,12 @@
 [
-	{"src":"img/z1.jpg"},
-	{"src":"img/bg1.jpg","title":"第二件五折！"},
-	{"src":"img/z2.jpg"},
-	{"src":"img/z3.jpg"},
-	{"src":"img/z4.jpg"},
-	{"src":"img/z5.jpg"},
-	{"src":"img/z6.jpg"},
-	{"src":"img/z7.jpg"},
-	{"src":"img/bg2.jpg","title":"满减送！"},
-	{"src":"img/z8.jpg"}
+	{"src":"img/z1.jpg","id":"0"},
+	{"src":"img/bg1.jpg","title":"第二件五折！","id":"00"},
+	{"src":"img/z2.jpg","id":"1"},
+	{"src":"img/z3.jpg","id":"2"},
+	{"src":"img/z4.jpg","id":"3"},
+	{"src":"img/z5.jpg","id":"4"},
+	{"src":"img/z6.jpg","id":"5"},
+	{"src":"img/z7.jpg","id":"6"},
+	{"src":"img/bg2.jpg","title":"满减送！","id":"00"},
+	{"src":"img/z8.jpg","id":"7"}
 ]
