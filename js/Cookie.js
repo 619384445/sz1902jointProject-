@@ -30,3 +30,4 @@ function setCookie(k,v,day){
 		function removeCookie(k){
 		setCookie(k,'',-1);
 	}
+

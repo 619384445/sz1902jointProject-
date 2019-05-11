@@ -1,0 +1,38 @@
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body,html{
+	/*字体大小可设可不设*/
+	font:17px   "宋体", "楷体","微软雅黑",Arial;	/*字体选择*/
+	color:#181818;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;/*清除加粗*/
+	font-size:100%;	
+}
+i,em{
+	font-style:normal;/*清除倾斜字体正常*/	
+}
+li{
+	list-style:none;/*清除列表默认符号*/	
+}
+a{
+	text-decoration:none !important;/*清除下滑线*/
+	color:#575757;
+	font-size: 12px;/*A字体颜色可以不设*/
+}
+a:hover{
+	text-decoration:none !important;
+}
+input{
+	outline:none;	/*清除表单蓝色框*/
+}
+.clearfix{
+	*zoom:1;	/*IE浏览器使用清除高度塌陷*/
+}
+.clearfix:after{     /*清除高度塌陷*/
+	content:' ';     /*  在内容后面输入一个空格*/
+	display:block;      /*把after转块以为块可以设置宽高只对块元素起作用*/
+	height:0;            /*高度为0没有宽看不见*/
+	clear:both;           /*两边不允许有浮动元素*/
+	visibility:hidden;	   /*隐藏这个元素不让看见*/
+}

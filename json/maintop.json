@@ -1,12 +1,12 @@
 [
-	{"src":"img/z1.jpg","id":"0"},
+	{"src":"img/z7.jpg","id":"img/z1.jpg","jiage":"100.00","mingzi":"花花公子套装","jianjie":"花花公子套装"},
 	{"src":"img/bg1.jpg","title":"第二件五折！","id":"00"},
-	{"src":"img/z2.jpg","id":"1"},
-	{"src":"img/z3.jpg","id":"2"},
-	{"src":"img/z4.jpg","id":"3"},
-	{"src":"img/z5.jpg","id":"4"},
-	{"src":"img/z6.jpg","id":"5"},
-	{"src":"img/z7.jpg","id":"6"},
+	{"src":"img/z2.jpg","id":"img/z2.jpg","jiage":"110.00","mingzi":"空虚公子套装","jianjie":"空虚公子套装"},
+	{"src":"img/z3.jpg","id":"img/z3.jpg","jiage":"120.00","mingzi":"神仙公子套装","jianjie":"神仙公子套装"},
+	{"src":"img/z4.jpg","id":"img/z4.jpg","jiage":"130.00","mingzi":"枪手公子套装","jianjie":"抢手公子套装"},
+	{"src":"img/z5.jpg","id":"img/z5.jpg","jiage":"140.00","mingzi":"大哥套装","jianjie":"大哥套装"},
+	{"src":"img/z6.jpg","id":"img/z6.jpg","jiage":"150.00","mingzi":"大哥大套装","jianjie":"大哥大套装"},
+	{"src":"img/z1.jpg","id":"img/z7.jpg","jiage":"160.00","mingzi":"旭日套装","jianjie":"旭日套装"},
 	{"src":"img/bg2.jpg","title":"满减送！","id":"00"},
-	{"src":"img/z8.jpg","id":"7"}
+	{"src":"img/z8.jpg","id":"img/z8.jpg","jiage":"170.00","mingzi":"毒奶粉套装","jianjie":"毒奶粉套装"}
 ]

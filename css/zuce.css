@@ -1,0 +1,179 @@
+header {
+				width: 100%;
+				height: 66px;
+				border-bottom: 3px solid black;
+			}
+			
+			.header-a {
+				width: 1000px;
+				margin: 0 auto;
+				height: 100%;
+			}
+			
+			.header-left {
+				float: left;
+				line-height: 66px;
+			}
+			
+			.header-left a img {
+				vertical-align: middle;
+			}
+			
+			.header-right {
+				float: right;
+				line-height: 66px;
+			}
+			
+			.header-right ul li {
+				float: left;
+				margin-left: 20px;
+			}
+			
+			.header-right ul li:hover {
+				background: #B0B0B0;
+			}
+			
+			.header-right ul li p {
+				width: 60px;
+				line-height: 30px;
+				background: #B0B0B0;
+				position: absolute;
+				display: none;
+			}
+			
+			.header-right ul li p a {
+				text-align: center;
+			}
+			
+			article {
+				width: 100%;
+			}
+			
+			.article-a {
+				display: flex;
+				align-content: space-between;
+				width: 1000px;
+				margin: 0 auto;
+				height: 100%;
+			}
+			
+			.article-left {
+				float: left;
+				flex: 1;
+				margin: 107px 0;
+				width: 575px;
+				border-right: 1px solid #dfdfdf;
+			}
+			
+			.article-left span {
+				display: block;
+				margin: 100px 0 50px 30px;
+			}
+			
+			.article-left span img {
+				-webkit-animation: circle 2s infinite linear;
+				-moz-animation: circle 1s infinite linear;
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			@-webkit-keyframes circle {
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(-360deg);
+				}
+			}
+			
+			.article-right {
+				flex: 1;
+				float: left;
+				margin-top: 107px;
+				padding-left: 85px;
+			}
+			
+			.article-right ul {
+				color: #b9b9b9;
+				font-size: 14px;
+			}
+			
+			.article-right ul li {
+				position: relative;
+				margin-bottom: 25px;
+				width: 270px;
+			}
+			
+			.article-right ul li .guojia {
+				padding: 4px 0;
+				width: 132px;
+				height: 30px;
+				border-color: #c1c1c1;
+				color: #9a9a9a;
+				font-size: 16px;
+				font-family: 黑体, sans-serif;
+			}
+			
+			.sjh {
+				display: flex;
+			}
+			
+			.article-right .baliu {
+				float: left;
+				width: 58px;
+				height: 43px;
+				border: 1px solid #dbdbdb;
+				text-align: center;
+				font-size: 16px;
+				line-height: 43px;
+			}
+			
+			.article-right .sj {
+				float: left;
+				width: 209px;
+				height: 43px;
+				border: 1px solid #dbdbdb;
+				color: #9a9a9a;
+				text-indent: 10px;
+				font-size: 16px;
+				line-height: 43px;
+			}
+			.mi,.ma,.zuce{
+			padding: 0;
+    width: 180px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    font-size: 16px;
+    line-height: 43px;}
+    .yz{
+    background:url(../img/1.png);
+    color: #9a9a9a;
+    width: 80px;
+    height: 43px;
+    font-size: 20px;line-height: 43px;
+   }
+			
+			.aaa {
+				font-size: 13px;
+				line-height: 13px;
+				text-align: left;
+				margin-bottom: 10px;
+				color: #b0b0b0;
+			}
+			
+			.aaa span {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font: inherit;
+				font-size: 100%;
+				vertical-align: baseline;
+			}
+			
+			label.error {
+				width: 100px;
+				color: red;
+				white-space: nowrap;
+				
+				line-height: 45px;
+			}

@@ -83,6 +83,7 @@
 	border: 1px solid  #000;
 	float: right;
 	margin-top: 40px;
+	position: relative;
 }
 .seach div a{
 	padding: 3px 6px;
@@ -249,6 +250,7 @@ h1{
 #bar{
 	position: relative;
 	height: 450px;
+	margin-bottom:6px;
 }
 #bar a{
 	position: absolute;
@@ -381,7 +383,9 @@ h1{
 	border-left: 1px solid #ccc;
 	padding: 0 50px;
 }
-
+#shop{
+	color :#000;
+}
 #shopBox{
 	position: absolute;
 	z-index: 1000;
@@ -392,4 +396,23 @@ h1{
 	left: 809px;
 	top: 102px;
 	display: none;
+}
+#sechBox{
+	position: absolute;
+	left: 831px;
+	top: 102px;
+	
+}
+#sechBox li {
+	width: 242px;
+	border:1px solid #cdb6a1;
+	border-top:none;
+	background: #fff;
+}
+#sechBox a{
+	width: 100%;
+	display: block;
+}
+#sechBox a:hover{
+	background: #F2F1EF;
 }
